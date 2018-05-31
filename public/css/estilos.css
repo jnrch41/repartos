@@ -1,0 +1,79 @@
+.header_users {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content:space-between;
+}
+
+.header_users a {
+  margin-left: 10px;
+}
+
+.header_users .select {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.nav_reparto {
+  background-color: #1b4b86;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.hamburguesa {
+  color: white;
+}
+
+.nav_logo_ivess {
+  width: 80px;
+}
+
+.ult_semana_negativo {
+  color: red;
+}
+
+.ult_semana_neutral {
+  color: #5072a0;
+}
+
+.ult_semana_positivo {
+  color: green;
+}
+
+.seteo_comparativa {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.seteo_comparativa select {
+  width: 200px;
+}
+
+.icon_calendar {
+  color: grey;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.filtros_notificaciones {
+  width: 100vw;
+  margin-bottom: 10px;
+}
+.filtros_notificaciones select {
+  width: 200px;
+}
+
+.notificacion_no_vista {
+  color: grey;
+}
+
+.notificacion_vista {
+  color: #48c48a;
+}

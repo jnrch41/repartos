@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Panel administracion</title>
+    <link rel="icon" type="image/png" href="/img/ivess_logo_favicon.png" />
     <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
@@ -55,5 +56,9 @@
       });
     </script>
 
+
+<footer>
+  <p>® Copyright 2018 - El Jumillano S.A.  -  Desarrollo realizado por el equipo de sistemas</p>
+</footer>
   </body>
 </html>

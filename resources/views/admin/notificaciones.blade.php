@@ -3,7 +3,7 @@
 
 
 
-  <div class="jumbotron">
+  <div class="titulo_seccion">
     <h2 class="display-5">Notificaciones</h2>
     <p class="">Aquí podrá ver las notificaciones recibidas por los supervisores</p>
   </div>
@@ -17,12 +17,12 @@
   </div>
 
 
-  <div class="container">
+  <div class="notificaciones_persianas">
     <div class="accordion" id="acordion1">
       <div class="card">
-        <div class="card-header" id="header1">
+        <div class="card-header notificaciones_fondo_persiana_pendientes" id="header1">
           <h5 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn btn_notificaciones_persiana" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Pendientes de revisión
             </button>
           </h5>
@@ -35,9 +35,9 @@
               <div class="row">
                  <div class="col-md-12">
                    <div class="panel panel-danger">
-                         <div class="panel-heading cabecera_notificaciones">
-                           10/05/2018
-                           <i class="fa fa-eye notificacion_no_vista"></i>
+                         <div class="panel-heading fecha_notificaciones">
+                           <h6>10/05/2018</h6>
+                           <i class="fa fa-eye notificacion_todo_visto"></i>
                          </div>
                          <div class="panel-body">
                            <div class="cada_notificacion">
@@ -58,9 +58,9 @@
                          </div>
                    </div>
                    <div class="panel panel-danger">
-                         <div class="panel-heading cabecera_notificaciones">
-                           10/05/2018
-                           <i class="fa fa-eye notificacion_no_vista"></i>
+                         <div class="panel-heading fecha_notificaciones">
+                           <h6>12/05/2018</h6>
+                           <i class="fa fa-eye notificacion_todo_visto"></i>
                          </div>
                          <div class="panel-body">
                            <div class="cada_notificacion">
@@ -83,9 +83,9 @@
 
     <div class="accordion" id="acordion2">
       <div class="card">
-        <div class="card-header" id="header2">
+        <div class="card-header notificaciones_fondo_persiana_historial" id="header2">
           <h5 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+            <button class="btn btn_notificaciones_persiana" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
               Historial
             </button>
           </h5>
@@ -98,12 +98,18 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="panel panel-info">
-                        <div class="panel-heading cabecera_notificaciones">
-                          10/05/2018
+                        <div class="panel-heading fecha_notificaciones">
+                          <h6>10/05/2018</h6>
                           <small>Visto</small>
                         </div>
                         <div class="panel-body">
-                          <p> <b>R3:</b> Tiene problemas en <b>Envases improductivos - Ventas</b></p>
+                          <div class="cada_notificacion">
+                            <p> <b>R3:</b> Tiene problemas en <b>Envases improductivos - Ventas</b></p>
+                          </div>
+                          <hr>
+                          <div class="cada_notificacion">
+                            <p> <b>R3:</b> Tiene problemas en <b>Envases improductivos - Ventas</b></p>
+                          </div>
                           <hr>
                         </div>
                   </div>
@@ -135,7 +141,17 @@ $(document).ready(function() {
   });
 
 
+//Hay que realizar varios foreach o sumar un for
+//  $( "li" ).each(function( index ) {
+//    console.log( index + ": " + $( this ).text() );
+//  });
 
+
+
+  $(".notificacion_todo_visto").click(function() {
+  alert("Debiste haber visto todo");
+
+  });
 
 });
 

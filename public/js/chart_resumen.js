@@ -1,4 +1,4 @@
-var ctx = document.getElementById("chart_clientes_new").getContext('2d');
+var ctx = document.getElementById("chart_resumen").getContext('2d');
 var chart_clientes_new = new Chart(ctx, {
     type: 'line',
     data: {

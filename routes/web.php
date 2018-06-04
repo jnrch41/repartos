@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//View::share('welcome', User::all());
+
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::resource('users', 'UsersController');
     Route::get('users/{id}/destroy', [
@@ -32,6 +34,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
     Route::get('notificaciones', function () {
       return view('admin.notificaciones');
+    });
+
+    Route::get('tutoriales', function () {
+      return view('admin.tutoriales');
     });
 
 });

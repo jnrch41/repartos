@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .header_users {
   display: flex;
   margin-bottom: 10px;
@@ -76,4 +82,193 @@
 
 .notificacion_vista {
   color: #48c48a;
+}
+
+.opciones_crear_users {
+  width: 100vw;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.opciones_crear_users select {
+  width: 200px;
+}
+
+
+.select_resumen {
+  width: 100vw;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.select_resumen select {
+  width: 200px;
+}
+
+
+.tabla {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.titulo_seccion {
+  background-color: #f7f7f7;
+  height: 200px;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+.titulo_seccion h2 {
+  color: black;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+
+.titulo_seccion p {
+  color: grey;
+  padding-left: 30px;
+}
+
+
+.cabecera_reclamos_desvio {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.cabecera_reclamos_desvio h5 {
+
+}
+.select_modal_reclamos_desvio {
+  width: 150px;
+}
+
+.grafico_chart {
+  margin-top: 50px;
+}
+
+.filtros_notificaciones {
+  width: 100%;
+}
+
+.filtros_notificaciones select {
+  margin-left: 20px;
+}
+
+.notificaciones_persianas {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn_notificaciones_persiana {
+  background-color: transparent;
+  color: #ededed;
+}
+
+.fecha_notificaciones {
+  display: flex;
+  justify-content:space-between;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.cada_notificacion {
+  display: flex;
+  justify-content:space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+
+.notificaciones_fondo_persiana_pendientes {
+  background-color: #913535;
+}
+
+
+.notificaciones_fondo_persiana_historial {
+  background-color: #056dac;
+}
+
+
+.tutoriales_card_titulo {
+  color: #353535;
+}
+
+.tutoriales_descripcion {
+  color: #a5a5a5;
+}
+
+footer {
+  background-color: #2d2d2d;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #cecece;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+.buscador {
+  width: 100vw;
+  padding: 20px;
+  background-color: #fcfcfc;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+}
+
+.buscador label {
+  margin-right: 10px;
+}
+
+.buscador_btn {
+  display: flex;
+}
+
+.contenedor_login {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contenedor_login form {
+  width: 25%;
+}
+
+.img_circulo {
+  width: 200px;
+}
+
+.usuario_logeado {
+  color: #13b3e2;
+  display: flex;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.nav_sup {
+  display: flex;
+  justify-content:space-between;
+}
+
+.usuario_logeado i {
+  margin-right: 10px;
 }

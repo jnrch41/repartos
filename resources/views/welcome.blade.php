@@ -25,7 +25,7 @@
             <form onsubmit="return false" method="post" id="form" class="AjaxForm" action="">
                 <div class="title">
                     <label>El</label>
-                    <label>Jumillano</label>
+                    <label>Lalala</label>
                 </div>
                 <div class="input-inform">
                     <input type="text" name="name" id="name" placeholder="Ingrese su usuario" />

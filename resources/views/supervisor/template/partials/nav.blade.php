@@ -22,12 +22,6 @@
         <a class="nav-link" href="charlas">Charlas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{ route('admin.users.index' )}}">Usuarios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="estadisticas">Estadísticas</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="tutoriales">Tutoriales</a>
       </li>
     </ul>
@@ -50,6 +44,7 @@
     @endguest
   </div>
 </nav>
+
 
 <style media="screen">
 

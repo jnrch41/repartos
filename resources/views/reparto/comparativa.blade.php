@@ -1,4 +1,4 @@
-@extends('admin.template.main')
+@extends('reparto.template.main')
 @section('content')
 
 
@@ -8,8 +8,7 @@
   </div>
   <div class="seteo_comparativa">
       <select class="form-control">
-        <option selected>Supervisores</option>
-        <option>Repartidores</option>
+        <option selected>Repartidores</option>
       </select>
       <div class="seteo_rango_fechas">
         <i class="fa fa-calendar-alt icon_calendar"></i>
@@ -39,7 +38,7 @@
       <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>Jose Perez</td>
+          <td>R1</td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -53,7 +52,7 @@
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>Juan Ramirez</td>
+          <td>R5</td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -67,7 +66,7 @@
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Pedro Dominguez</td>
+          <td>R20</td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -81,7 +80,7 @@
         </tr>
         <tr>
           <th scope="row">4</th>
-          <td>Julian Sila</td>
+          <td>R14</td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
@@ -95,7 +94,7 @@
         </tr>
         <tr>
           <th scope="row">5</th>
-          <td>Miguel Aguila</td>
+          <td>R23</td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -109,7 +108,7 @@
         </tr>
         <tr>
           <th scope="row">6</th>
-          <td>Rodolfo Acosta</td>
+          <td>R16</td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -123,7 +122,7 @@
         </tr>
         <tr>
           <th scope="row">7</th>
-          <td>Jonathan Rojas</td>
+          <td>R19</td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>

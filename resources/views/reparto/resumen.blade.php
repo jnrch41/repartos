@@ -1,4 +1,4 @@
-  @extends('admin.template.main')
+  @extends('reparto.template.main')
 
   @section('content')
 
@@ -8,11 +8,7 @@
   </div>
   <div class="select_resumen">
       <select class="form-control">
-        <option selected>Fábrica</option>
-        <option>Ciudadela</option>
-        <option>La plata</option>
-        <option>Supervisores</option>
-        <option>Repartidores</option>
+        <option selected>Mi reparto</option>
       </select>
   </div>
 

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+i {
+  cursor: pointer;
+}
+
 .header_users {
   display: flex;
   margin-bottom: 10px;
@@ -40,14 +44,17 @@
 
 .ult_semana_negativo {
   color: red;
+  cursor: pointer;
 }
 
 .ult_semana_neutral {
   color: #5072a0;
+  cursor: pointer;
 }
 
 .ult_semana_positivo {
   color: green;
+  cursor: pointer;
 }
 
 .seteo_comparativa {
@@ -62,10 +69,16 @@
   width: 200px;
 }
 
+.seteo_rango_fechas {
+  display: flex;
+  margin-right: 10px;
+}
+
 .icon_calendar {
   color: grey;
   font-size: 20px;
   margin-right: 5px;
+  margin-left: 10px;
 }
 
 .filtros_notificaciones {
@@ -271,4 +284,84 @@ footer p {
 
 .usuario_logeado i {
   margin-right: 10px;
+}
+
+.estadisticas_titulo {
+  background-color: #1085b4;
+  height: 40px;
+}
+
+.estadisticas_titulo h5 {
+  color: white;
+  padding: 5px;
+}
+
+.flechita_inf {
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.peity {
+  cursor: pointer;
+}
+
+.filtros_charlas {
+  width: 100vw;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content:space-around;
+}
+.filtros_charlas select {
+  width: 200px;
+}
+
+
+.charlas_persiana {
+  background-color: #913535;
+  display: flex;
+  justify-content:space-between;
+  color: #e8e8e8;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.contenedor_charlas_super {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.select_charlas_super select{
+  width: 200px;
+}
+
+.btn_charlas_sup {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn_charlas_sup button {
+  float: right;
+  margin-bottom: 10px;
+}
+
+ /*  //////////////////  Media Queries /////////////  */
+
+@media screen and (max-width: 960px) {
+
+  .tabla {
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  .tabla_responsive{
+   width: auto;
+   height: 50px;
+   padding: 10px;
+   white-space: nowrap;
+ }
+
+
+
 }

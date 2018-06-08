@@ -1,4 +1,4 @@
-@extends('admin.template.main')
+@extends('supervisor.template.main')
 @section('content')
 
 
@@ -67,7 +67,7 @@
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Pedro Dominguez</td>
+          <td>Jonathan Mayer</td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -81,7 +81,7 @@
         </tr>
         <tr>
           <th scope="row">4</th>
-          <td>Julian Sila</td>
+          <td>Luis Fonsi</td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
@@ -95,7 +95,7 @@
         </tr>
         <tr>
           <th scope="row">5</th>
-          <td>Miguel Aguila</td>
+          <td>Mickey Mouse</td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -109,7 +109,7 @@
         </tr>
         <tr>
           <th scope="row">6</th>
-          <td>Rodolfo Acosta</td>
+          <td>Lionel Messi</td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
@@ -123,7 +123,7 @@
         </tr>
         <tr>
           <th scope="row">7</th>
-          <td>Jonathan Rojas</td>
+          <td>Don Quijote</td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
           <td> <button class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>

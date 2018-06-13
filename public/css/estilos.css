@@ -345,6 +345,17 @@ footer p {
   margin-bottom: 10px;
 }
 
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+.geolocalizacion_gps {
+  height: 100%;
+}
+
  /*  //////////////////  Media Queries /////////////  */
 
 @media screen and (max-width: 960px) {

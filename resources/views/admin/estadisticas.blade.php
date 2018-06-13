@@ -3,15 +3,87 @@
 @section('content')
 
 <div class="titulo_seccion">
-  <h2 class="display-5">Estadísticas de ventas</h2>
-  <p class="">Aquí podrá ver sus estadísticas de venta</p>
+  <h2 class="display-5">Ubicar repartidor</h2>
+  <p class="">Aquí podrá buscar la ubicación de cada repartidor</p>
 </div>
+
+
+<div class="select_resumen">
+    <select class="form-control">
+      <option selected>Seleccione reparto...</option>
+      <option>Reparto 1</option>
+    </select>
+</div>
+
+
+<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 440px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+
+</style>
+
+    <div id="map"></div>
+    <script>
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.603722, lng: -58.381592},
+          zoom: 16
+        });
+        var infoWindow = new google.maps.InfoWindow({map: map});
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Su ubicación.');
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHgBo27RDL89DjGt1JWF2hXiDgfMFhLx4&callback=initMap"></script>
+
+
+
+
+
+    <div class="titulo_seccion">
+      <h2 class="display-5">Estadísticas de ventas</h2>
+      <p class="">Aquí podrá buscar ver sus estadísticas de venta</p>
+    </div>
+
 <div class="select_resumen">
     <select class="form-control">
       <option selected>Ciudadela</option>
       <option>La plata</option>
     </select>
 </div>
+
+
 
 <div class="row">
 
@@ -165,5 +237,14 @@
         </div>
 
 
+<script type="text/javascript">
+var map;
+function initMap() {
+map = new google.maps.Map(document.getElementById('map'), {
+  center: {lat: -32.397, lng: 150.644},
+  zoom: 12
+});
+}
+</script>
 
 @endsection

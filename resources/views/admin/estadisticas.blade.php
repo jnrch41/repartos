@@ -61,8 +61,8 @@
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.setPosition(pos);
         infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
+                              'Error: La geolocalizacion falló' :
+                              'Error: Tu navegador no soporta geolocalización');
       }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHgBo27RDL89DjGt1JWF2hXiDgfMFhLx4&callback=initMap"></script>
